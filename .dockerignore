@@ -1,0 +1,28 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore git and related files
+.git
+.gitignore
+
+# Ignore .env files
+.env
+.env.example
+
+# Ignore build-related files
+build/
+
+# Ignore test-related files
+cypress/
+
+# Ignore other unnecessary files and folders
+.storybook/
+.circleci/
+.github/
+
+# Ignore other common files
+README
+LICENSE
+CHANGELOG
+jest.config.js
+tsconfig
